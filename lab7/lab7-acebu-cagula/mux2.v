@@ -1,20 +1,8 @@
-//module Mux2(
-//    input wire sel,              // Select bit (0 or 1)
-//    input wire [31:0] a,    // Input 0
-//    input wire [31:0] b,    // Input 1
-//    output wire [31:0] out  // Output
-//);
-//
-//    // if bit=0, out=a. if sel=1, out=b.
-//    assign out = (sel) ? b : a;
-//
-//endmodule
-
-module mux2(
+module mux2 #(parameter WIDTH = 32)(
     input sel,
-    input [31:0] a,
-    input [31:0] b,
-    output reg [31:0] out
+    input [WIDTH-1:0] a,
+    input [WIDTH-1:0] b,
+    output reg [WIDTH-1:0] out
 );
     always @(*) begin
         if (sel == 1'b0)
