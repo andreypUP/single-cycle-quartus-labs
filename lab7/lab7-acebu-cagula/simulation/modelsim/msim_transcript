@@ -1,0 +1,139 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab7-acebu-cagula_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/sign_extender.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on Nov 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/sign_extender.v 
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# End time: 20:08:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/serial_buf.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on Nov 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/serial_buf.v 
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+# End time: 20:08:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/RegisterFile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on Nov 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 20:08:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on Nov 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 20:08:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/PC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on Nov 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/PC.v 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 20:08:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on Nov 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 20:08:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/inst_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on Nov 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/inst_rom.v 
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+# End time: 20:08:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/data_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on Nov 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/data_memory.v 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 20:08:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/async_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on Nov 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/async_memory.v 
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+# End time: 20:08:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:39 on Nov 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 20:08:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/tb_RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:08:56 on Nov 27,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/tb_RegisterFile.v 
+# -- Compiling module tb_RegisterFile
+# 
+# Top level modules:
+# 	tb_RegisterFile
+# End time: 20:08:56 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_RegisterFile
+# vsim work.tb_RegisterFile 
+# Start time: 20:09:01 on Nov 27,2025
+# Loading work.tb_RegisterFile
+# Loading work.RegisterFile
+add wave -position insertpoint sim:/tb_RegisterFile/*
+run -all
+# Starting Register File Test...
+# [PASS] Register 1 contains correct value: aabbccdd
+# [PASS] Register 0 is still 0 (Write ignored).
+# ** Note: $finish    : C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/tb_RegisterFile.v(73)
+#    Time: 35 ns  Iteration: 0  Instance: /tb_RegisterFile
+# 1
+# Break in Module tb_RegisterFile at C:/intelFPGA_lite/18.1/quartus/181.1/lab7-acebu-cagula/tb_RegisterFile.v line 73
+run -all
+add wave -position insertpoint sim:/tb_RegisterFile/*

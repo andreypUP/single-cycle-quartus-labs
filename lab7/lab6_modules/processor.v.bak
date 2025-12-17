@@ -1,0 +1,95 @@
+module processor(
+    input clock,
+    input reset,
+
+    input [7:0] serial_in,
+    input serial_valid_in,
+    input serial_ready_in,
+    output [7:0] serial_out,
+    output serial_rden_out,
+    output serial_wren_out
+);
+
+    wire [31:0] pc_current, pc_next;
+    wire [31:0] instruction;
+    wire [31:0] reg_rd1, reg_rd2;
+    wire [31:0] alu_out;
+    wire [31:0] reg_wd;
+
+    // Control placeholders (Lab 7)
+    wire reg_write = 1'b0;
+
+    // PC
+    pc PC(
+        .clock(clock),
+        .reset(reset),
+        .pc_next(pc_next),
+        .pc_out(pc_current)
+    );
+
+    // PC + 4
+    adder pcAdder(
+        .a(pc_current),
+        .b(32'd4),
+        .sum(pc_next)
+    );
+
+    // Instruction Memory (LAB SPEC: addr_in = PC_next)
+    inst_rom #(
+        .INIT_PROGRAM("/Users/markeeeyp/Documents/COE181/quartus_codes/lab7/lab6_modules/blank_memh.v")
+    ) IMEM (
+        .clock(clock),
+        .reset(reset),
+        .addr_in(pc_next),
+        .data_out(instruction)
+    );
+
+    // Register File
+    reg_file RF(
+        .clk(clock),
+        .we(reg_write),
+        .ra1(instruction[25:21]),
+        .ra2(instruction[20:16]),
+        .rw(instruction[15:11]),
+        .wd(reg_wd),
+        .rd1(reg_rd1),
+        .rd2(reg_rd2)
+    );
+
+    // ALU (Func_in placeholder)
+    alu ALU(
+        .Func_in(instruction[5:0]),
+        .A_in(reg_rd1),
+        .B_in(reg_rd2),
+        .O_out(alu_out),
+        .Branch_out(),
+        .Jump_out()
+    );
+
+    // Data Memory
+    data_memory #(
+        .INIT_PROGRAM0("/Users/markeeeyp/Documents/COE181/quartus_codes/lab7/lab6_modules/blank_memh.v"),
+        .INIT_PROGRAM1("/Users/markeeeyp/Documents/COE181/quartus_codes/lab7/lab6_modules/blank_memh.v"),
+        .INIT_PROGRAM2("/Users/markeeeyp/Documents/COE181/quartus_codes/lab7/lab6_modules/blank_memh.v"),
+        .INIT_PROGRAM3("/Users/markeeeyp/Documents/COE181/quartus_codes/lab7/lab6_modules/blank_memh.v")
+    ) DMEM (
+        .clock(clock),
+        .reset(reset),
+        .addr_in(alu_out),
+        .writedata_in(reg_rd2),
+        .re_in(1'b0),
+        .we_in(1'b0),
+        .readdata_out(),
+        .size_in(2'b11),
+        .serial_in(serial_in),
+        .serial_ready_in(serial_ready_in),
+        .serial_valid_in(serial_valid_in),
+        .serial_out(serial_out),
+        .serial_rden_out(serial_rden_out),
+        .serial_wren_out(serial_wren_out)
+    );
+
+    // Temporary writeback
+    assign reg_wd = alu_out;
+
+endmodule
