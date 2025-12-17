@@ -1,0 +1,75 @@
+`timescale 1ns / 1ps
+
+module register_file_tb;
+    // Inputs
+    reg clk;
+    reg rst;
+    reg reg_write_en;
+    reg [4:0] read_reg1;
+    reg [4:0] read_reg2;
+    reg [4:0] write_reg;
+    reg [31:0] write_data;
+
+    // Outputs
+    wire [31:0] read_data1;
+    wire [31:0] read_data2;
+
+    register_file uut (
+        .clk(clk), 
+        .rst(rst), 
+        .reg_write_en(reg_write_en), 
+        .read_reg1(read_reg1), 
+        .read_reg2(read_reg2), 
+        .write_reg(write_reg), 
+        .write_data(write_data), 
+        .read_data1(read_data1), 
+        .read_data2(read_data2)
+    );
+
+    // Clock generation (10ns period)
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;
+    end
+
+    initial begin
+        $display("Starting Register File Test...");
+        
+        // 1. Reset
+        rst = 1; reg_write_en = 0; write_data = 0; write_reg = 0; read_reg1 = 0; read_reg2 = 0;
+        #10 rst = 0;
+
+        // 2. Write 0xAABBCCDD to Register 1 ($at)
+        reg_write_en = 1;
+        write_reg = 5'd1;
+        write_data = 32'hAABBCCDD;
+        #10; // Wait for clock edge
+        reg_write_en = 0; // Disable write
+        
+        // 3. Attempt to Write 0xDEADBEEF to Register 0 ($zero)
+        // This SHOULD FAIL (Reg 0 must stay 0)
+        reg_write_en = 1;
+        write_reg = 5'd0;
+        write_data = 32'hDEADBEEF;
+        #10;
+        reg_write_en = 0;
+
+        // 4. Read back both registers to verify
+        read_reg1 = 5'd1; // Should be AABBCCDD
+        read_reg2 = 5'd0; // Should be 00000000
+        #5;
+
+        // Check results
+        if (read_data1 === 32'hAABBCCDD) 
+            $display("[PASS] Register 1 contains correct value: %h", read_data1);
+        else 
+            $display("[FAIL] Register 1 value incorrect. Got: %h", read_data1);
+
+        if (read_data2 === 32'h00000000) 
+            $display("[PASS] Register 0 is still 0 (Write ignored).");
+        else 
+            $display("[FAIL] Register 0 was overwritten! Got: %h", read_data2);
+
+        $finish;
+    end
+endmodule
