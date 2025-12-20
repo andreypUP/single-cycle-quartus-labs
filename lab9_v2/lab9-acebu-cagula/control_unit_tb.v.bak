@@ -1,0 +1,99 @@
+`timescale 1ns/1ps
+
+module control_unit_tb;
+
+    reg  [31:0] instruction;
+
+    wire RegWrite;
+    wire RegDst;
+    wire ALUSrc;
+    wire MemRead;
+    wire MemWrite;
+    wire MemToReg;
+    wire [3:0] ALUOp;
+
+    // Instantiate your control unit
+    control_unit DUT (
+        .instruction(instruction),
+        .RegWrite(RegWrite),
+        .RegDst(RegDst),
+        .ALUSrc(ALUSrc),
+        .MemRead(MemRead),
+        .MemWrite(MemWrite),
+        .MemToReg(MemToReg),
+        .ALUOp(ALUOp)
+    );
+
+    // -----------------------------------------------
+    // Dumpfile for GTKWave
+    // -----------------------------------------------
+    initial begin
+        $dumpfile("control_unit.vcd");   // GTKWave file
+        $dumpvars(0, control_tb);
+    end
+
+    // -----------------------------------------------
+    // Helper task for readable testing
+    // -----------------------------------------------
+    task apply_instruction;
+        input [31:0] instr;
+        begin
+            instruction = instr;
+            #10;  // wait for signals to settle
+        end
+    endtask
+
+    // -----------------------------------------------
+    // Instruction Encodings (MIPS)
+    // -----------------------------------------------
+    localparam OPCODE_R   = 6'b000000;
+    localparam FUNCT_ADD  = 6'b100000;
+    localparam FUNCT_SUB  = 6'b100010;
+    localparam FUNCT_AND  = 6'b100100;
+    localparam FUNCT_OR   = 6'b100101;
+    localparam FUNCT_NOR  = 6'b100111;
+    localparam FUNCT_XOR  = 6'b100110;
+
+    localparam OPCODE_LW  = 6'b100011;
+    localparam OPCODE_SW  = 6'b101011;
+    localparam OPCODE_ADDI = 6'b001000;
+
+    // -----------------------------------------------
+    // Generate testcases
+    // -----------------------------------------------
+    initial begin
+        $display("Starting control unit testbench...");
+
+        // R-type: ADD
+        apply_instruction({OPCODE_R, 20'd0, FUNCT_ADD});
+
+        // R-type: SUB
+        apply_instruction({OPCODE_R, 20'd0, FUNCT_SUB});
+
+        // R-type: AND
+        apply_instruction({OPCODE_R, 20'd0, FUNCT_AND});
+
+        // R-type: OR
+        apply_instruction({OPCODE_R, 20'd0, FUNCT_OR});
+
+        // R-type: NOR
+        apply_instruction({OPCODE_R, 20'd0, FUNCT_NOR});
+
+        // R-type: XOR
+        apply_instruction({OPCODE_R, 20'd0, FUNCT_XOR});
+
+        // I-type: LW
+        apply_instruction({OPCODE_LW, 26'd0});
+
+        // I-type: SW
+        apply_instruction({OPCODE_SW, 26'd0});
+
+        // I-type: ADDI
+        apply_instruction({OPCODE_ADDI, 26'd0});
+
+        #20;
+        $display("Control unit testbench complete.");
+        $finish;
+    end
+
+endmodule

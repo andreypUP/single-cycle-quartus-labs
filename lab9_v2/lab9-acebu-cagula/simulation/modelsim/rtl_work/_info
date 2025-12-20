@@ -1,0 +1,577 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/simulation/modelsim
+vadder
+Z1 !s110 1766214747
+!i10b 1
+!s100 L25J?cQWU7WR?0:nKI;a;1
+IcWbnbaAi0gYb?MNQ=V6C80
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1765093107
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1766214747.000000
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder.v|
+!s90 -reportprogress|300|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vadder_tb
+R1
+!i10b 1
+!s100 M`fMAOno8<KCHL6MQEO=k2
+IizP?JDaUWlf@2je?6oJ4L3
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder_tb.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder_tb.v|
+!i113 1
+R6
+R7
+valu
+R1
+!i10b 1
+!s100 nd1;3ePhLZde0dSY2`B270
+IY8YA]n93ke]FHOoGUcK8Y3
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/alu.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/alu.v
+L0 11
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/alu.v|
+!s90 -reportprogress|300|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/alu.v|
+!i113 1
+R6
+R7
+vasync_memory
+R1
+!i10b 1
+!s100 GKMOD4L6jYi`C0XaF8a?Z0
+IO<Q?G8bG83E4P@jfeh4F13
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/async_memory.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/async_memory.v
+Z8 L0 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/async_memory.v|
+!s90 -reportprogress|300|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/async_memory.v|
+!i113 1
+R6
+R7
+vcontrol_unit
+Z9 !s110 1766214748
+!i10b 1
+!s100 4oU1]moZND:6TR<MFc^[a1
+I2]2]j8`U6cLDGbkWcUXnl2
+R2
+R0
+w1766188856
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit.v
+L0 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit.v|
+!s90 -reportprogress|300|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit.v|
+!i113 1
+R6
+R7
+vcontrol_unit_tb
+R9
+!i10b 1
+!s100 <JNnkJ2:9Z7R:Pd<zbkS[2
+IlJGIQi44DbnjkMCRHDebo1
+R2
+R0
+w1766192461
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit_tb.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z10 !s108 1766214748.000000
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit_tb.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit_tb.v|
+!i113 1
+R6
+R7
+vdata_memory
+R9
+!i10b 1
+!s100 I19fCgQVQG2X[O>RkX5e;2
+IJnCTI79]oEaiO@aozSa;F3
+R2
+R0
+w1765959606
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/data_memory.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/data_memory.v
+L0 24
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/data_memory.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/data_memory.v|
+!i113 1
+R6
+R7
+vinst_rom
+R9
+!i10b 1
+!s100 5JD_1WW56JaOjFQ<LWPXm1
+I4`f_4VQ:IP=Yh8WXC]7=D3
+R2
+R0
+w1765958370
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/inst_rom.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/inst_rom.v
+L0 14
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/inst_rom.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/inst_rom.v|
+!i113 1
+R6
+R7
+vload_extender
+Z11 !s110 1766214749
+!i10b 1
+!s100 dXXBKgh8n?BbcH3fkF5O@0
+Icn@2O1B<Wg8:N>c]0o?L90
+R2
+R0
+w1766189013
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender.v
+Z12 L0 23
+R4
+r1
+!s85 0
+31
+Z13 !s108 1766214749.000000
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender.v|
+!i113 1
+R6
+R7
+vmux2
+R11
+!i10b 1
+!s100 ]dKMhU0j46NN5CZOFTm4d0
+I8Di49TMncIY=7?56T=3Ih3
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2.v
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2.v|
+!i113 1
+R6
+R7
+vmux2_tb
+R11
+!i10b 1
+!s100 RLdC0?<3bW7gZ2<7fHUol0
+IhDE890aHf[18PzLKBbYFF1
+R2
+R0
+w1766196574
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2_tb.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2_tb.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2_tb.v|
+!i113 1
+R6
+R7
+vmux4
+Z14 !s110 1766214750
+!i10b 1
+!s100 Li3>ci7LC5KTOHdBK::UT3
+IVB<Ojbf`CgP=GY7TOk><a0
+R2
+R0
+w1766187843
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4.v
+L0 39
+R4
+r1
+!s85 0
+31
+Z15 !s108 1766214750.000000
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4.v|
+!i113 1
+R6
+R7
+vmux4_tb
+R14
+!i10b 1
+!s100 :n3^AzTHlGC@_6lnWUCO12
+IBP=cR_2k9VbcZjYHH>MkZ0
+R2
+R0
+w1766160808
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4_tb.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4_tb.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4_tb.v|
+!i113 1
+R6
+R7
+vprocessor
+R14
+!i10b 1
+!s100 H@k2^o_XT1OWgn`;i<dOR0
+I1[czPYdehb83R7Qe<57QC2
+R2
+R0
+w1766213903
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/processor.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/processor.v
+L0 3
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/processor.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/processor.v|
+!i113 1
+R6
+R7
+vprogram_counter
+R14
+!i10b 1
+!s100 >Ood4X;RbWOWHN?EEGgBI1
+IbXdCDENBOa^[B:9g_JhdK2
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/pc.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/pc.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/pc.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/pc.v|
+!i113 1
+R6
+R7
+vreg_file_tb
+Z16 !s110 1766214751
+!i10b 1
+!s100 [OWd_Kn22nQT?YGALK^nG2
+I?ag4^ER3RDFjnV:VL8GKh0
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register_file_tb.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register_file_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z17 !s108 1766214751.000000
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register_file_tb.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register_file_tb.v|
+!i113 1
+R6
+R7
+vregister
+R16
+!i10b 1
+!s100 ?L]__cP>M_KP5fmKka?l@3
+I8Q5K7_a0mQ`6FEH3m47Rn1
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register.v
+L0 1
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register.v|
+!i113 1
+R6
+R7
+vserial_buffer
+R16
+!i10b 1
+!s100 YaME58hfJc]5fhZUDS;W[2
+I^=hJLO[g:d6hzZPh?B3E@3
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/serial_buf.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/serial_buf.v
+L0 16
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/serial_buf.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/serial_buf.v|
+!i113 1
+R6
+R7
+vshift_left_2
+Z18 !s110 1766214752
+!i10b 1
+!s100 SHT5kgQ`bC8?I]>0ho4zD2
+I3SO[K@MS_n4Lzka``1U=o3
+R2
+R0
+w1766184278
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2.v
+Z19 L0 20
+R4
+r1
+!s85 0
+31
+Z20 !s108 1766214752.000000
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2.v|
+!i113 1
+R6
+R7
+vshift_left_2_tb
+R18
+!i10b 1
+!s100 Hb[SdZae7dFi1^=Z3M7<51
+IQ7dHV^`fGJ5Jd?10D2oZ71
+R2
+R0
+w1766184298
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2_tb.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2_tb.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2_tb.v|
+!i113 1
+R6
+R7
+vsign_extender
+R18
+!i10b 1
+!s100 HAc[_ICi@AMaTE2>F?QU11
+IO=ARW]TN_1g]IP4L9d4Z[2
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender.v
+L0 1
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender.v|
+!i113 1
+R6
+R7
+vsign_extender_tb
+R18
+!i10b 1
+!s100 QGg7F5NH5[22[1?1Y;PY72
+In<QKMm^0?Q=zYSUoJ2;:L0
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender_tb.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender_tb.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender_tb.v|
+!i113 1
+R6
+R7
+vtb_load_extender
+R11
+!i10b 1
+!s100 :SGZE<ci>NMnA[UbVfbjA3
+IB5zaOOlENVZI59mnFWD2D3
+R2
+R0
+w1766211586
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender_tb.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender_tb.v
+R19
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender_tb.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender_tb.v|
+!i113 1
+R6
+R7
+vtb_program_counter
+R16
+!i10b 1
+!s100 eJd=l2SaMeT;d3l4fcln92
+IRFLP[lfkhl;V5;1Y=i51D2
+R2
+R0
+w1766188193
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/program_counter_tb.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/program_counter_tb.v
+L0 18
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/program_counter_tb.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/program_counter_tb.v|
+!i113 1
+R6
+R7
+vtestbench
+Z21 !s110 1766214753
+!i10b 1
+!s100 mJZAOKUQj2dbmeBF_DAeh0
+IhEM=d=QoYMST<;S:4WnZM0
+R2
+R0
+R3
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/testbench.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/testbench.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z22 !s108 1766214753.000000
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/testbench.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/testbench.v|
+!i113 1
+R6
+R7
+vzero_extender
+R21
+!i10b 1
+!s100 05V1Sa@8cKTkAngdPgFz20
+IYTCTVkkEcW?=XX=24b07;2
+R2
+R0
+w1766194272
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender.v
+R12
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender.v|
+!i113 1
+R6
+R7
+vzero_extender_tb
+R21
+!i10b 1
+!s100 KkIz[E_Kh9iFKWfz=Xldh2
+IBgF:[oJDNVE>iJ]kZ:;IC1
+R2
+R0
+w1766194242
+8C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender_tb.v
+FC:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender_tb.v
+R8
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender_tb.v|
+!s90 -reportprogress|30|-work|work|C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender_tb.v|
+!i113 1
+R6
+R7

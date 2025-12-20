@@ -1,0 +1,57 @@
+$date
+	Thu Nov 20 21:28:55 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module sign_extender_tb $end
+$var wire 32 ! out [31:0] $end
+$var parameter 32 " IN_WIDTH $end
+$var parameter 32 # OUT_WIDTH $end
+$var reg 16 $ in [15:0] $end
+$scope module uut $end
+$var wire 16 % in [15:0] $end
+$var wire 32 & out [31:0] $end
+$var parameter 32 ' IN_WIDTH $end
+$var parameter 32 ( OUT_WIDTH $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100000 (
+b10000 '
+b100000 #
+b10000 "
+$end
+#0
+$dumpvars
+b1001000110100 &
+b1001000110100 %
+b1001000110100 $
+b1001000110100 !
+$end
+#10000
+b11111111111111111000000000000000 !
+b11111111111111111000000000000000 &
+b1000000000000000 $
+b1000000000000000 %
+#20000
+b11111111111111111111001000110100 !
+b11111111111111111111001000110100 &
+b1111001000110100 $
+b1111001000110100 %
+#30000
+b11111111111111111111111110000000 !
+b11111111111111111111111110000000 &
+b1111111110000000 $
+b1111111110000000 %
+#40000
+b1111111 !
+b1111111 &
+b1111111 $
+b1111111 %
+#60000

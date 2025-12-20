@@ -1,0 +1,164 @@
+$date
+	Fri Nov 28 11:03:45 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module control_unit_tb $end
+$var wire 1 ! RegWrite $end
+$var wire 1 " RegDst $end
+$var wire 1 # MemWrite $end
+$var wire 1 $ MemToReg $end
+$var wire 1 % MemRead $end
+$var wire 1 & ALUSrc $end
+$var wire 6 ' ALUOp [5:0] $end
+$var parameter 6 ( FUNCT_ADD $end
+$var parameter 6 ) FUNCT_AND $end
+$var parameter 6 * FUNCT_NOR $end
+$var parameter 6 + FUNCT_OR $end
+$var parameter 6 , FUNCT_SUB $end
+$var parameter 6 - FUNCT_XOR $end
+$var parameter 6 . OPCODE_ADDI $end
+$var parameter 6 / OPCODE_LW $end
+$var parameter 6 0 OPCODE_R $end
+$var parameter 6 1 OPCODE_SW $end
+$var reg 32 2 instruction [31:0] $end
+$scope module DUT $end
+$var wire 32 3 instruction [31:0] $end
+$var wire 6 4 opcode [5:0] $end
+$var wire 6 5 funct [5:0] $end
+$var reg 6 6 ALUOp [5:0] $end
+$var reg 1 & ALUSrc $end
+$var reg 1 % MemRead $end
+$var reg 1 $ MemToReg $end
+$var reg 1 # MemWrite $end
+$var reg 1 " RegDst $end
+$var reg 1 ! RegWrite $end
+$upscope $end
+$scope task apply_instr $end
+$var reg 32 7 instr [31:0] $end
+$var reg 80 8 name [80:1] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b101011 1
+b0 0
+b100011 /
+b1000 .
+b100110 -
+b100010 ,
+b100101 +
+b100111 *
+b100100 )
+b100000 (
+$end
+#0
+$dumpvars
+b10000010100010001000100 8
+b100000 7
+b100000 6
+b100000 5
+b0 4
+b100000 3
+b100000 2
+b100000 '
+0&
+0%
+0$
+0#
+1"
+1!
+$end
+#10000
+b100010 '
+b100010 6
+1"
+1!
+b100010 5
+b100010 2
+b100010 3
+b10100110101010101000010 8
+b100010 7
+#20000
+b100100 '
+b100100 6
+1"
+1!
+b100100 5
+b100100 2
+b100100 3
+b10000010100111001000100 8
+b100100 7
+#30000
+b100101 '
+b100101 6
+1"
+1!
+b100101 5
+b100101 2
+b100101 3
+b100111101010010 8
+b100101 7
+#40000
+b100110 '
+b100110 6
+1"
+1!
+b100110 5
+b100110 2
+b100110 3
+b10110000100111101010010 8
+b100110 7
+#50000
+b100111 '
+b100111 6
+1"
+1!
+b100111 5
+b100111 2
+b100111 3
+b10011100100111101010010 8
+b100111 7
+#60000
+1&
+b100000 '
+b100000 6
+0"
+1!
+b1000 4
+b0 5
+b100000000000000000000000000000 2
+b100000000000000000000000000000 3
+b1000001010001000100010001001001 8
+b100000000000000000000000000000 7
+#70000
+1$
+1%
+b100000 '
+b100000 6
+1&
+1!
+b100011 4
+b10001100000000000000000000000000 2
+b10001100000000000000000000000000 3
+b100110001010111 8
+b10001100000000000000000000000000 7
+#80000
+1#
+b100000 '
+b100000 6
+0$
+0%
+1&
+0!
+b101011 4
+b10101100000000000000000000000000 2
+b10101100000000000000000000000000 3
+b101001101010111 8
+b10101100000000000000000000000000 7
+#90000

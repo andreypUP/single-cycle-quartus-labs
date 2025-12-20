@@ -1,0 +1,28 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/alu.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/async_memory.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/data_memory.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/inst_rom.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/pc.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/register.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/serial_buf.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/mux2.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/adder.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/sign_extender.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/processor.v}
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/control_unit.v}
+
+vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.0/new {C:/intelFPGA_lite/18.0/new/testbench.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
+
+add wave *
+view structure
+view signals
+run -all

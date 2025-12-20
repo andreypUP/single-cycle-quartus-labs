@@ -1,0 +1,97 @@
+module control_unit (
+    input  wire [31:0] instruction,
+
+    output reg        RegWrite,
+    output reg        RegDst,
+    output reg        ALUSrc,
+    output reg        MemRead,
+    output reg        MemWrite,
+    output reg        MemToReg,
+    output reg [3:0]  ALUOp   // adjust size to match your ALU
+);
+
+    wire [5:0] opcode = instruction[31:26];
+    wire [5:0] funct  = instruction[5:0];
+
+    always @(*) begin
+        
+        // ---------------------------
+        // Default values for all signals
+        // ---------------------------
+        RegWrite = 0;
+        RegDst   = 0;
+        ALUSrc   = 0;
+        MemRead  = 0;
+        MemWrite = 0;
+        MemToReg = 0;
+        ALUOp    = 4'b0000;
+
+        case(opcode)
+
+            // ==========================================
+            // R-TYPE: opcode = 000000
+            // ==========================================
+            6'b000000: begin
+                RegWrite = 1;
+                RegDst   = 1;    // write to rd
+                ALUSrc   = 0;    // register input
+                MemToReg = 0;    // write back ALU result
+                MemRead  = 0;
+                MemWrite = 0;
+
+                case(funct)
+                    6'b100000: ALUOp = 4'b0000; // ADD
+                    6'b100010: ALUOp = 4'b0001; // SUB
+                    6'b100100: ALUOp = 4'b0010; // AND
+                    6'b100101: ALUOp = 4'b0011; // OR
+                    6'b100111: ALUOp = 4'b0100; // NOR
+                    6'b100110: ALUOp = 4'b0101; // XOR
+                    default:   ALUOp = 4'b0000; // safe default
+                endcase
+            end
+
+            // ==========================================
+            // LW — opcode = 100011
+            // ==========================================
+            6'b100011: begin
+                RegWrite = 1;
+                RegDst   = 0;     // write to rt
+                ALUSrc   = 1;     // immediate offset
+                MemRead  = 1;
+                MemWrite = 0;
+                MemToReg = 1;     // from memory
+                ALUOp    = 4'b0000; // ALU = ADD base + offset
+            end
+
+            // ==========================================
+            // SW — opcode = 101011
+            // ==========================================
+            6'b101011: begin
+                RegWrite = 0;
+                RegDst   = 0;     // don't care logically, but assign 0
+                ALUSrc   = 1;
+                MemRead  = 0;
+                MemWrite = 1;
+                MemToReg = 0;     // irrelevant but assign 0
+                ALUOp    = 4'b0000;
+            end
+
+            // ==========================================
+            // ADDI — opcode = 001000
+            // ==========================================
+            6'b001000: begin
+                RegWrite = 1;
+                RegDst   = 0; // write to rt
+                ALUSrc   = 1; // immediate
+                MemRead  = 0;
+                MemWrite = 0;
+                MemToReg = 0; // ALU result
+                ALUOp    = 4'b0000; // addition
+            end
+
+            default: begin
+                // Safe defaults already assigned above
+            end
+        endcase
+    end
+endmodule

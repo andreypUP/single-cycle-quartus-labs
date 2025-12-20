@@ -1,0 +1,16 @@
+module program_counter (
+	input 		clk,
+	input 		reset,				// active-high reset
+	input			[31:0] next_pc,	// value to load into PC
+	output reg	[31:0] pc_out		// current PC value
+
+);
+
+	always @(posedge clk) begin
+		if(reset)
+			pc_out <= 32'b0;			// PC starts at address 0
+		else
+			pc_out <= next_pc;		// update PC every cycle
+	end
+
+endmodule

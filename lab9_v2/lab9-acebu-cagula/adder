@@ -1,0 +1,77 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000001cafb17bc60 .scope module, "adder_tb" "adder_tb" 2 3;
+ .timescale -9 -12;
+P_000001cafb177fa0 .param/l "WIDTH" 0 2 5, +C4<00000000000000000000000000100000>;
+v000001cafb2024d0_0 .var "a", 31 0;
+v000001cafb202570_0 .var "b", 31 0;
+v000001cafb202610_0 .net "sum", 31 0, L_000001cafb2026b0;  1 drivers
+S_000001cafb227940 .scope module, "uut" "adder" 2 11, 3 1 0, S_000001cafb17bc60;
+ .timescale 0 0;
+    .port_info 0 /INPUT 32 "a";
+    .port_info 1 /INPUT 32 "b";
+    .port_info 2 /OUTPUT 32 "sum";
+P_000001cafb178720 .param/l "WIDTH" 0 3 2, +C4<00000000000000000000000000100000>;
+v000001cafb202a60_0 .net "a", 31 0, v000001cafb2024d0_0;  1 drivers
+v000001cafb202eb0_0 .net "b", 31 0, v000001cafb202570_0;  1 drivers
+v000001cafb227ad0_0 .net "sum", 31 0, L_000001cafb2026b0;  alias, 1 drivers
+L_000001cafb2026b0 .arith/sum 32, v000001cafb2024d0_0, v000001cafb202570_0;
+    .scope S_000001cafb17bc60;
+T_0 ;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v000001cafb2024d0_0, 0, 32;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v000001cafb202570_0, 0, 32;
+    %delay 5000, 0;
+    %pushi/vec4 1, 0, 32;
+    %store/vec4 v000001cafb2024d0_0, 0, 32;
+    %pushi/vec4 1, 0, 32;
+    %store/vec4 v000001cafb202570_0, 0, 32;
+    %delay 10000, 0;
+    %pushi/vec4 16, 0, 32;
+    %store/vec4 v000001cafb2024d0_0, 0, 32;
+    %pushi/vec4 32, 0, 32;
+    %store/vec4 v000001cafb202570_0, 0, 32;
+    %delay 10000, 0;
+    %pushi/vec4 2863311530, 0, 32;
+    %store/vec4 v000001cafb2024d0_0, 0, 32;
+    %pushi/vec4 286331153, 0, 32;
+    %store/vec4 v000001cafb202570_0, 0, 32;
+    %delay 10000, 0;
+    %pushi/vec4 4294967295, 0, 32;
+    %store/vec4 v000001cafb2024d0_0, 0, 32;
+    %pushi/vec4 1, 0, 32;
+    %store/vec4 v000001cafb202570_0, 0, 32;
+    %delay 10000, 0;
+    %pushi/vec4 305419896, 0, 32;
+    %store/vec4 v000001cafb2024d0_0, 0, 32;
+    %pushi/vec4 2271560481, 0, 32;
+    %store/vec4 v000001cafb202570_0, 0, 32;
+    %delay 10000, 0;
+    %vpi_call 2 28 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_000001cafb17bc60;
+T_1 ;
+    %vpi_call 2 33 "$monitor", "Time=%0t | a=%h | b=%h | sum=%h", $time, v000001cafb2024d0_0, v000001cafb202570_0, v000001cafb202610_0 {0 0 0};
+    %end;
+    .thread T_1;
+    .scope S_000001cafb17bc60;
+T_2 ;
+    %vpi_call 2 39 "$dumpfile", "adder.vcd" {0 0 0};
+    %vpi_call 2 40 "$dumpvars", 32'sb00000000000000000000000000000000, S_000001cafb17bc60 {0 0 0};
+    %end;
+    .thread T_2;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "adder_tb.v";
+    "adder.v";

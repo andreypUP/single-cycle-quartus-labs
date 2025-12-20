@@ -1,0 +1,56 @@
+`timescale 1ns/1ps
+
+module mux2_tb;
+
+    reg  [31:0] a, b;
+    reg         sel;
+    wire [31:0] y;
+	
+	mux2_tb mux (
+		.clk(clk),
+		.reset(reset),
+		.next_pc(next_pc),
+		.pc_out(pc_out)
+	);
+	
+	initial begin
+		clk = 0;
+		forever #5 clk = ~clk;	
+	end
+	
+	initial begin
+		reset = 0;
+		next_pc = 32'h00000000;
+		
+		#3;
+		reset = 1;
+		#10;
+		reset = 0;
+		
+		next_pc = 32'h00000004;
+		#10;
+		next_pc = 32'h00000008;
+		#10;
+      next_pc = 32'h0000000C;
+		#10;
+		
+		
+		reset = 1;
+		#10;
+		reset = 0;
+      next_pc = 32'h00000010;
+		#10;
+		
+		$finish;
+	end
+	
+	
+	initial begin
+        $monitor("Time=%0t | reset=%b | next_pc=%h | pc_out=%h", $time, reset, next_pc, pc_out);
+    end
+
+	initial begin
+        $dumpfile("program_counter.vcd"); // VCD file name
+        $dumpvars(0, program_counter_tb); // dump all signals in this module
+    end
+endmodule

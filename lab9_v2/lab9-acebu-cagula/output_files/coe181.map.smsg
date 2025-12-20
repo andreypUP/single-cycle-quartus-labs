@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at processor.v(44): object "write_reg_mux" differs only in case from object "WRITE_REG_MUX" in the same scope File: C:/intelFPGA_lite/18.0/new/processor.v Line: 44
+Info (10281): Verilog HDL Declaration information at processor.v(42): object "write_data_mux" differs only in case from object "WRITE_DATA_MUX" in the same scope File: C:/intelFPGA_lite/18.0/new/processor.v Line: 42

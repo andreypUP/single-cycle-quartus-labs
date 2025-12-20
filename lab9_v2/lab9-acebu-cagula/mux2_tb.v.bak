@@ -1,0 +1,42 @@
+`timescale 1ns/1ps
+
+module mux2_tb;
+
+	parameter WIDTH =32
+
+    reg  [WIDTH-1:0] a, b;
+    reg	sel;
+    wire [WIDTH-1:0] y;
+	
+	mux2_tb mux (
+		.a(a),
+		.b(b),
+		.sel(sel),
+		.y(y)
+	);
+	
+	initial begin
+		a = 0;
+		b = 0;
+		sel = 0;
+		
+		#5 a = 8'hAA; b = 8'h55; sel = 0;
+		#10 sel = 1;
+		#10 a = 8'hFF; b = 8'h00; sel = 0;
+		#10 sel = 1;
+		#10 a = 8'h12; b = 8'h34; sel = 1;
+		#10 sel = 0;
+		
+		#10 $finish
+	end
+	
+	 initial begin
+        $monitor("Time=%0t | sel=%b | a=%h | b=%h | y=%h", $time, sel, a, b, y);
+    end
+
+    initial begin
+        $dumpfile("mux2.vcd");
+        $dumpvars(0, tb_mux2);
+    end
+	 
+endmodule

@@ -1,0 +1,587 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do coe181_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:35 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender.v 
+# -- Compiling module zero_extender
+# 
+# Top level modules:
+# 	zero_extender
+# End time: 15:00:35 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:35 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender.v 
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# End time: 15:00:35 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:35 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2.v 
+# -- Compiling module shift_left_2
+# 
+# Top level modules:
+# 	shift_left_2
+# End time: 15:00:36 on Dec 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/serial_buf.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:36 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/serial_buf.v 
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+# End time: 15:00:36 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:36 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register.v 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 15:00:36 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:36 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 15:00:37 on Dec 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:37 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/pc.v 
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# End time: 15:00:37 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:37 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 15:00:37 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:37 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 15:00:37 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:38 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender.v 
+# -- Compiling module load_extender
+# 
+# Top level modules:
+# 	load_extender
+# End time: 15:00:38 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/inst_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:38 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/inst_rom.v 
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+# End time: 15:00:38 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/data_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:38 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/data_memory.v 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 15:00:38 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:39 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit.v 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 15:00:39 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/async_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:39 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/async_memory.v 
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+# End time: 15:00:39 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:39 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:00:39 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:40 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 15:00:40 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula {C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:40 on Dec 20,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula" C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:00:40 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 15:00:40 on Dec 20,2025
+# Loading work.testbench
+# Loading work.processor
+# Loading work.program_counter
+# Loading work.adder
+# Loading work.shift_left_2
+# Loading work.mux4
+# Loading work.inst_rom
+# Loading work.mux2
+# Loading work.register
+# Loading work.sign_extender
+# Loading work.zero_extender
+# Loading work.alu
+# Loading work.data_memory
+# Loading work.async_memory
+# Loading work.serial_buffer
+# Loading work.load_extender
+# Loading work.control_unit
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# [1390] Serial: S
+# [2230] Serial: 
+# 
+# [8350] Serial: 0
+# [9190] Serial: 
+# 
+# [15330] Serial: 1
+# [16170] Serial: 
+# 
+# [22310] Serial: 1
+# [23150] Serial: 
+# 
+# [29290] Serial: 2
+# [30130] Serial: 
+# 
+# [36270] Serial: 3
+# [37110] Serial: 
+# 
+# [43250] Serial: 5
+# [44090] Serial: 
+# 
+# [50230] Serial: 8
+# [51070] Serial: 
+# 
+# [58710] Serial: 1
+# [59550] Serial: 3
+# [60390] Serial: 
+# 
+# [68390] Serial: 2
+# [69230] Serial: 1
+# [70070] Serial: 
+# 
+# [78430] Serial: 3
+# [79270] Serial: 4
+# [80110] Serial: 
+# 
+# [81890] Serial: E
+# [82730] Serial: 
+# 
+vlog -reportprogress 300 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:27 on Dec 20,2025
+# vlog -reportprogress 300 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 15:12:27 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:27 on Dec 20,2025
+# vlog -reportprogress 300 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/adder_tb.v 
+# -- Compiling module adder_tb
+# 
+# Top level modules:
+# 	adder_tb
+# End time: 15:12:27 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/alu.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:27 on Dec 20,2025
+# vlog -reportprogress 300 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:12:27 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/async_memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:27 on Dec 20,2025
+# vlog -reportprogress 300 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/async_memory.v 
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+# End time: 15:12:27 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:27 on Dec 20,2025
+# vlog -reportprogress 300 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit.v 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 15:12:28 on Dec 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:28 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/control_unit_tb.v 
+# -- Compiling module control_unit_tb
+# 
+# Top level modules:
+# 	control_unit_tb
+# End time: 15:12:28 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/data_memory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:28 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/data_memory.v 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 15:12:28 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/inst_rom.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:28 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/inst_rom.v 
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+# End time: 15:12:28 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:29 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender.v 
+# -- Compiling module load_extender
+# 
+# Top level modules:
+# 	load_extender
+# End time: 15:12:29 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:29 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/load_extender_tb.v 
+# -- Compiling module tb_load_extender
+# 
+# Top level modules:
+# 	tb_load_extender
+# End time: 15:12:29 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:29 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 15:12:29 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:29 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux2_tb.v 
+# -- Compiling module mux2_tb
+# 
+# Top level modules:
+# 	mux2_tb
+# End time: 15:12:29 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:30 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 15:12:30 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:30 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/mux4_tb.v 
+# -- Compiling module mux4_tb
+# 
+# Top level modules:
+# 	mux4_tb
+# End time: 15:12:30 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/pc.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:30 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/pc.v 
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# End time: 15:12:30 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/processor.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:30 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 15:12:30 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/program_counter_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:31 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/program_counter_tb.v 
+# -- Compiling module tb_program_counter
+# 
+# Top level modules:
+# 	tb_program_counter
+# End time: 15:12:31 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:31 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register.v 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 15:12:31 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register_file_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:31 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/register_file_tb.v 
+# -- Compiling module reg_file_tb
+# 
+# Top level modules:
+# 	reg_file_tb
+# End time: 15:12:31 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/serial_buf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:31 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/serial_buf.v 
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+# End time: 15:12:31 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:32 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2.v 
+# -- Compiling module shift_left_2
+# 
+# Top level modules:
+# 	shift_left_2
+# End time: 15:12:32 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:32 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/shift_left_2_tb.v 
+# -- Compiling module shift_left_2_tb
+# 
+# Top level modules:
+# 	shift_left_2_tb
+# End time: 15:12:32 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:32 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender.v 
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# End time: 15:12:32 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:32 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/sign_extender_tb.v 
+# -- Compiling module sign_extender_tb
+# 
+# Top level modules:
+# 	sign_extender_tb
+# End time: 15:12:32 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/testbench.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:33 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:12:33 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:33 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender.v 
+# -- Compiling module zero_extender
+# 
+# Top level modules:
+# 	zero_extender
+# End time: 15:12:33 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:12:33 on Dec 20,2025
+# vlog -reportprogress 30 -work work C:/Mac/Home/Documents/COE181/quartus_codes/lab9_v2/lab9-acebu-cagula/zero_extender_tb.v 
+# -- Compiling module zero_extender_tb
+# 
+# Top level modules:
+# 	zero_extender_tb
+# End time: 15:12:33 on Dec 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 15:15:15 on Dec 20,2025, Elapsed time: 0:14:35
+# Errors: 0, Warnings: 0
+# vsim work.testbench 
+# Start time: 15:15:15 on Dec 20,2025
+# Loading work.testbench
+# Loading work.processor
+# Loading work.program_counter
+# Loading work.adder
+# Loading work.shift_left_2
+# Loading work.mux4
+# Loading work.inst_rom
+# Loading work.mux2
+# Loading work.register
+# Loading work.sign_extender
+# Loading work.zero_extender
+# Loading work.alu
+# Loading work.data_memory
+# Loading work.async_memory
+# Loading work.serial_buffer
+# Loading work.load_extender
+# Loading work.control_unit
+add wave sim:/testbench/*
+run -all
+# [1390] Serial: S
+# [2230] Serial: 
+# 
+# [8350] Serial: 0
+# [9190] Serial: 
+# 
+# [15330] Serial: 1
+# [16170] Serial: 
+# 
+# [22310] Serial: 1
+# [23150] Serial: 
+# 
+# [29290] Serial: 2
+# [30130] Serial: 
+# 
+# [36270] Serial: 3
+# [37110] Serial: 
+# 
+# [43250] Serial: 5
+# [44090] Serial: 
+# 
+# [50230] Serial: 8
+# [51070] Serial: 
+# 
+# [58710] Serial: 1
+# [59550] Serial: 3
+# [60390] Serial: 
+# 
+# [68390] Serial: 2
+# [69230] Serial: 1
+# [70070] Serial: 
+# 
+# [78430] Serial: 3
+# [79270] Serial: 4
+# [80110] Serial: 
+# 
+# [81890] Serial: E
+# [82730] Serial: 
+# 
+# Break key hit
+# Simulation stop requested.
+# End time: 15:38:54 on Dec 20,2025, Elapsed time: 0:23:39
+# Errors: 0, Warnings: 0
